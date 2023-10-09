@@ -19,23 +19,23 @@ The main purpose of this project is to provide a platform:
 
 # TECHNOLOGIES USED
 This project is built using the following tools and technologies:
-•	HTML: For creating the structure and content of the website.
-•	CSS: For styling the website.
-•	JavaScript: For adding interactivity.
-•	Flask: For handling form submission.
-•	Git: For tracking the code changes
+- HTML: For creating the structure and content of the website.
+- CSS: For styling the website.
+- JavaScript: For adding interactivity.
+- Flask: For handling form submission.
+- Git: For tracking the code changes
 
 # SCREENSHOTS/DEMO
 
 # ROADMAP & FUTURE ENHANCEMENT
 In the future, I plan to enhance the project by:
-• Building more projects and adding to my portfolio.
-•	Integrating more technologies and frameworks to improve website’s functionality.
+- Building more projects and adding to my portfolio.
+- Integrating more technologies and frameworks to improve website’s functionality.
+  
 # CONTACT INFORMATION
 Connect with me through the following channels:
-• Name: Emmanuel Rotich
-•	Email: mikemanuu273@gmail.com
-•	Github: 
-•	LinkedIn: 
-•	Twitter: 
-
+- Name: Emmanuel Rotich
+- Email: mikemanuu273@gmail.com
+- Github:
+- LinkedIn:
+- Twitter:
