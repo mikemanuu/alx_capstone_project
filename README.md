@@ -1,10 +1,6 @@
 # PROJECT OVERVIEW
-Hello and welcome to my portfolio website.
-This project aims to showcase my skills, projects and experiences. 
-The main purpose of this project is to provide a platform:
-1. To display my work.
-2. To connect with potential collaborators.
-3. To showcase my abilities to prospective employers and clients.
+This project aims to create a visually appealing and user-friendly portfolio website to showcase my skills, projects and experiences. 
+The main purpose of this project is to provide a platform where I display my work, connect with potential collaborators and showcase my abilities to prospective employers and clients.
 
 # FEATURES & FUNCTIONALITY
 # Feaures:
@@ -19,11 +15,12 @@ The main purpose of this project is to provide a platform:
 
 # TECHNOLOGIES USED
 This project is built using the following tools and technologies:
-- HTML: For creating the structure and content of the website.
-- CSS: For styling the website.
-- JavaScript: For adding interactivity.
+- HTML: For structuring the content of the web pages.
+- CSS: For styling and layout the design.
+- JavaScript: For adding interactivity and enhancing user experience.
+- Python: Used with Flask for Backend Development of the application.
 - Flask: For handling form submission.
-- Git: For tracking the code changes
+- Git: Version control for code management.
 
 # SCREENSHOTS/DEMO
 
@@ -31,6 +28,8 @@ This project is built using the following tools and technologies:
 In the future, I plan to enhance the project by:
 - Building more projects and adding to my portfolio.
 - Integrating more technologies and frameworks to improve website’s functionality.
+- Implement a search feature for users to find specific projects or skills.
+- Integrate analytics to track visitors engagement and assess the impact of my portfolio.
   
 # CONTACT INFORMATION
 Connect with me through the following channels:
