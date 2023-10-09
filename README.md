@@ -29,12 +29,11 @@ This project is built using the following tools and technologies:
 
 # ROADMAP & FUTURE ENHANCEMENT
 In the future, I plan to enhance the project by:
-•	Building more projects and adding to my portfolio.
+• Building more projects and adding to my portfolio.
 •	Integrating more technologies and frameworks to improve website’s functionality.
-
 # CONTACT INFORMATION
 Connect with me through the following channels:
-•	Name: Emmanuel Rotich
+• Name: Emmanuel Rotich
 •	Email: mikemanuu273@gmail.com
 •	Github: 
 •	LinkedIn: 
