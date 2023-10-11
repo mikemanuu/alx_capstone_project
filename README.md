@@ -43,4 +43,4 @@ Connect with me through the following channels:
 - Email: mikemanuu273@gmail.com
 - Github:
 - LinkedIn:
-- Twitter:
+- Twitter: https://twitter.com/mikemanuu
