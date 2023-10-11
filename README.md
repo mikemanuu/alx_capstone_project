@@ -24,6 +24,12 @@ This project is built using the following tools and technologies:
 
 # SCREENSHOTS/DEMO
 
+![Workflow](https://github.com/mikemanuu/alx_capstone_project/assets/71790505/6bf6306a-8827-4a49-9f24-a74fbea283ba)
+
+
+![Prototype1](https://github.com/mikemanuu/alx_capstone_project/assets/71790505/30604f07-cf1e-484d-951c-2e772c726c2d)
+
+
 # ROADMAP & FUTURE ENHANCEMENT
 In the future, I plan to enhance the project by:
 - Building more projects and adding to my portfolio.
