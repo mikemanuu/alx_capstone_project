@@ -39,7 +39,7 @@ In the future, I plan to enhance the project by:
   
 # CONTACT INFORMATION
 Connect with me through the following channels:
-- Name: Emmanuel Rotich
+- Author: Emmanuel Rotich
 - Email: mikemanuu273@gmail.com
 - Github: https://github.com/mikemanuu
 - LinkedIn: https://www.linkedin.com/in/rotich-emmanuel-14ba25188
