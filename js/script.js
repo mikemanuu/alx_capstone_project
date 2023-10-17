@@ -1,47 +1,38 @@
 //Scroll smoothly to sections when clicking on nav links.
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
-document.querySelectorAll('nav a').forEach(anchor => {
-    anchor.addEventListener('click', function (task) {
-        task.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
 
-        const target_id = this.getAttribute('href').substring(1);
-        const target_element = document.getElementById(target_id);
-
-        window.scrollTo({
-            top: target_element.offsetTop - 50,
-            behavior: 'smooth'
-        });
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
     });
 });
 
 
-const gallery = document.querySelector('.gallery');
-let scroll_interval;
-
-function start_auto_scroll() {
-    scroll_interval = setInterval(() => {
-        const current_scroll_left = gallery.scrollLeft;
-        const item_width = gallery.querySelector('.service').offsetWidth;
-        const next_scroll_left = current_scroll_left + item_width;
-
-        if (next_scroll_left >= gallery.scrollWidth) {
-            gallery.scrollLeft = next_scroll_left;
-        }
-
-    }, 3000);
-}
-
-function stop_auto_scroll() {
-    clearInterval(scroll_interval);
-}
-
-start_auto_scroll();
-
-gallery.addEventListener('mouseenter', stop_auto_scroll);
-gallery.addEventListener('mouseleave', start_auto_scroll);
-
-
+//Hambuger icon.
 document.getElementById('menu-toggle').addEventListener('click', function () {
     var menu = document.getElementById('menu');
     menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
-    });
+});
+    
+
+//Set back-to-top arrow to show when the user has scrolled upto 2050 pixels.
+window.addEventListener('scroll', function () {
+    const arrow = document.querySelector('.back-to-top');
+    if (window.scrollY > 2050) {
+        arrow.style.display = 'block';
+    } else {
+        arrow.style.display = 'none';
+    }
+});
+
+
+//Smooth scrolling when back to top arrow is clicked.
+document.querySelector('.back-to-top a').addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector('body').scrollIntoView({ behavior: 'smooth' });
+});

@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        alert('Form submitted succefully!');
+        alert('Message sent successfully!');
 
         form.reset();
     });
