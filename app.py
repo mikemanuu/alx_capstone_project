@@ -1,12 +1,15 @@
 from flask import Flask, request, render_template
 import smtplib
-from decouple import config
+from decouple import Config, Csv
+
+config = Config('.env')
+
 
 app = Flask(__name__)
 
 # Load email credentials from environment variables
-email_username = config('EMAIL_USERNAME')
-email_password = config('EMAIL_PASSWORD')
+email_username = config('EMAIL_USERNAME', default='username')
+email_password = config('EMAIL_PASSWORD', default='password')
 
 
 @app.route('/')
@@ -14,7 +17,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/send_email', methods=['POST'])
+@app.route('/contact-form', methods=['POST'])
 def send_email():
     if request.method == 'POST':
         name = request.form['name']
