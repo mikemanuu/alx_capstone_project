@@ -4,7 +4,6 @@ from decouple import Config, Csv
 
 config = Config('.env')
 
-
 app = Flask(__name__, static_folder='static')
 
 @app.route('/', methods=['GET'])
@@ -37,7 +36,6 @@ def send_email():
             return 'Email sent successfully!'
         except Exception as e:
             return 'Email could not be sent. Please try again later.'
-
 
 if __name__ == '__main__':
     app.run(debug=True)
