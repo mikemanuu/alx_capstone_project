@@ -15,12 +15,6 @@ def index():
 email_username = config('EMAIL_USERNAME', default='username')
 email_password = config('EMAIL_PASSWORD', default='password')
 
-"""
-@app.route('/')
-def index():
-    return render_template('index.html')
-"""
-
 @app.route('/contact-form', methods=['POST'])
 def send_email():
     if request.method == 'POST':
