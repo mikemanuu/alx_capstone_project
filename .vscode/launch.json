@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\Kaporuso\\Desktop\\ALX\\CAPSTONE PROJECT\\alx_capstone_project\\static\\index.html"
+            "file": "c:\\Users\\Kaporuso\\Desktop\\ALX\\CAPSTONE PROJECT\\alx_capstone_project\\static\\index.html",
             "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
         }
     ]
