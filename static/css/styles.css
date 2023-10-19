@@ -549,7 +549,7 @@ footer p {
         margin-right: 0px;
         background-color: #f0f0f0;
         flex: 0 0 auto;
-        width: 250px;
+        width: 200px;
         height: auto;
         text-align: center;
         scroll-snap-align: center;
@@ -608,7 +608,7 @@ footer p {
 
     .service {
         flex: 0 0 auto;
-        width: 330px;
+        width: 250px;
         padding: 30px;
         text-align: center;
         scroll-snap-align: start;
