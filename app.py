@@ -5,17 +5,21 @@ from decouple import Config, Csv
 config = Config('.env')
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
+
+@app.route('/', methods=['GET'])
+def index():
+    return send_from_directory('static', 'index.html')
 
 # Load email credentials from environment variables
 email_username = config('EMAIL_USERNAME', default='username')
 email_password = config('EMAIL_PASSWORD', default='password')
 
-
+"""
 @app.route('/')
 def index():
     return render_template('index.html')
-
+"""
 
 @app.route('/contact-form', methods=['POST'])
 def send_email():
